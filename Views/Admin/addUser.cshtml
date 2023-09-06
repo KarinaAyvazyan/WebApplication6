@@ -1,0 +1,37 @@
+﻿@using WebApplication6.Data.Entities;
+@model User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>addUser</title>
+</head>
+<body>
+
+
+    <form method="post">
+
+        <div>
+        <input asp-for="FirstName"/>
+            <label asp-for="FirstName">FirstName</</label>
+        </div>
+
+        <div>
+            <input asp-for="LastName" />
+            <label asp-for="LastName">LastName</</label>
+        </div>
+
+        <div>
+            <button type="submit">Save</button>
+        </div>
+
+
+    </form>
+
+</body>
+</html>
